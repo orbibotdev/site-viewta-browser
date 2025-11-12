@@ -1,0 +1,60 @@
+/* Основной фон */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0 50px;
+  background: linear-gradient(to bottom, #f0f8ff, #dbe9f4);
+  color: #333;
+}
+
+/* Стили для header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(90deg, #87CEEB, #4682B4);
+  color: white;
+  font-size: 2.2em;
+  font-weight: bold;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Основные секции */
+main {
+  margin-top: 30px;
+}
+
+/* Заголовки с градиентом */
+h2, h1 {
+  background: linear-gradient(to right, #6EE7B7, #3B82F6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 20px 0 10px 0;
+}
+
+/* Список будущих функций */
+ul {
+  list-style-type: square;
+  margin-left: 30px;
+  font-size: 1em;
+  color: #555;
+}
+
+li {
+  margin: 8px 0;
+}
+
+/* Текст с выделением */
+strong {
+  display: block;
+  margin-top: 30px;
+  font-size: 1.1em;
+  color: #e63946;
+  text-align: center;
+}
+
+/* Немного анимации при наведении на заголовки */
+h2:hover, h1:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
